@@ -44,11 +44,6 @@ For **slum change detection**, we took a pair of satellite images, representing 
 Read [this](https://github.com/cbsudux/Mumbai-slum-segmentation/tree/master/slums) for training and testing, and how to prepare your own satellite dataset.
 
 
-## Contributors
-
-- [Sudharshan Chandra Babu](http://github.com/cbsudux)
-- [Shishira R Maiya](https://github.com/abhyantrika)
-
 
 ## Acknowledgements
 
