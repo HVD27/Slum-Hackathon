@@ -7,7 +7,9 @@ More than one billion people live in slums around the world. In some developing 
 Mumbai Slums
 Mumbai is one of the most populous and wealthiest cities in India. However, it is also home to some of the world’s biggest slums -- Dharavi, Mankhurd-Govandi belt, Kurla-Ghatkopar belt, Dindoshi and The Bhandup-Mulund slums. The number of slum-dwellers in Mumbai is estimated to be around 9 million, up from 6 million in 2001 that is, 62% of of Mumbai live in informal slums.
 
-dharavi-govandi
+dharavi-govandi!
+[image](https://user-images.githubusercontent.com/72400265/157693683-1ead40c8-f639-4feb-a82b-20b21bf01d4d.png)
+
 
 kurla
 
@@ -24,6 +26,7 @@ We curated a dataset containing 3-band (RGB) satellite imagery with 65 cm per pi
 For slum segmentation and mapping, we trained a Mask R-CNN on our custom dataset. Check our github readme for our training and testing approaches, and our paper for more details.
 
 kurla result
+![image](https://user-images.githubusercontent.com/72400265/157693776-c67b6294-9386-4f9b-9b2e-cc3bef19f0e2.png)
 
 For slum change detection, we took a pair of satellite images, representing the same location at different points of time. We predicted masks for both these images and then subtracted the masks to obtain a percentage icrease/decrease. The following images (below) show a change of +35.25% between 2018 (top row) and 2005 (bottom row) of the same slum.
 
